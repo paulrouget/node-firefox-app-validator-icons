@@ -1,0 +1,28 @@
+{
+  "name": "firefox-app-validator-manifest",
+  "version": "0.1.0",
+  "description": "App validation (icons) for https://marketplace.firefox.com",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "should": "~4.0.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec",
+    "testwatch": "./node_modules/.bin/mocha -w -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/node-firefox-app-validator-icons.git"
+  },
+  "keywords": [
+    "firefox", "firefox marketplace", "firefoxos", "firefox os", "icons"
+  ],
+  "contributors": [
+    "Jen Fong-Adwent <jfong@mozilla.com> (http://github.com/ednapiranha)"
+  ],
+  "license": "MPL-2.0"
+}
