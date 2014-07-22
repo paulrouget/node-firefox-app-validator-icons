@@ -28,7 +28,7 @@ var getIconSize = function (image, fileSize, next) {
     if (stat.size > fileSize) {
       finish({
         errors: {
-          IconSizeTooLarge: 'Filesize is greater than 2MB'
+          IconSizeTooLarge: 'Filesize is greater than ' + Math.floor(fileSize / 1024 / 1024) + 'MB'
         }
       }, next);
       return;

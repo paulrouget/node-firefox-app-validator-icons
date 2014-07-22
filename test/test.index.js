@@ -30,7 +30,7 @@ describe('iconSize', function () {
 
   it('should return with a file size that is over the limit', function (done) {
     iconSize('test/icon.png', { size: 1 }, function (results) {
-      results.errors.IconSizeTooLarge.should.equal('Filesize is greater than 2MB');
+      results.errors.IconSizeTooLarge.should.equal('Filesize is greater than 0MB');
       done();
     });
   });
