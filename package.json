@@ -1,14 +1,16 @@
 {
-  "name": "firefox-app-validator-manifest",
-  "version": "0.1.0",
+  "name": "firefox-app-validator-icons",
+  "version": "1.0.0",
   "description": "App validation (icons) for https://marketplace.firefox.com",
   "main": "index.js",
   "dependencies": {
-    "image-size": "~0.3.2"
+    "image-size": "~0.3.2",
+    "through2": "~0.5.1"
   },
   "devDependencies": {
     "mocha": "~1.20.1",
-    "should": "~4.0.4"
+    "should": "~4.0.4",
+    "mock-fs": "~2.3.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec",
