@@ -4,7 +4,7 @@
   "description": "App validation (icons) for https://marketplace.firefox.com",
   "main": "index.js",
   "dependencies": {
-    "image-size": "~0.3.2"
+    "image-size": "git://github.com/ednapiranha/image-size.git#adc169fe8eca00b8a15a5cb9340a51ecdd996741"
   },
   "devDependencies": {
     "mocha": "~1.20.1",
