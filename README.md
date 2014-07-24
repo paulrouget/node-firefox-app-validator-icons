@@ -2,6 +2,10 @@
 
 [![Build Status](https://secure.travis-ci.org/mozilla/node-firefox-app-validator-icons.png)](http://travis-ci.org/mozilla/node-firefox-app-validator-icons)
 
+## Current image support
+
+png, jpg/jpeg
+
 ## Usage
 
 This is just to validate file-specific rules for the icons provided in a Firefox OS manifest.
