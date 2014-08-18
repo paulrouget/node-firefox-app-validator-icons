@@ -1,7 +1,7 @@
 'use strict';
 
-var fs = require('fs');
-var dimensions = require('image-size');
+var fs = require('../libwrappers/fs');
+var dimensions = require('../libwrappers/image-size');
 
 var MAX_IMAGE_SIZE = 2 * 1024 * 1024;
 
